@@ -1,1 +1,4 @@
-echo "Hello World!"
+node {
+    checkout scm
+    sh 'npm install'
+}
