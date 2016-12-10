@@ -1,2 +1,2 @@
 # demo-electron
-Demo electron project
+Just a basic project used in an exercise.  Nothing to see here.
