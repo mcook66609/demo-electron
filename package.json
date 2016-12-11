@@ -1,5 +1,23 @@
 {
-    "name"    : "your-app",
-    "version" : "0.1.0",
-    "main"    : "main.js"
+  "name": "sysadvent",
+  "version": "0.1.0",
+  "main": "main.js",
+  "devDependencies": {
+      "electron": "^1.4.10",
+      "electron-builder": "^10.6.1"
+  },
+  "description": "SysAdvent",
+  "author": "Michael Heap <m@michaelheap.com",
+  "license": "GNU 2.0",
+  "build": {
+      "appId": "com.michaelheap.sysadvent",
+      "category": "app.category.type"
+  },
+  "scripts": {
+      "start": "electron main.js",
+      "build": "build --mwl --x64 --ia32",
+      "build-windows": "build --windows --x64 --ia32",
+      "build-mac": "build --mac --x64 --ia32",
+      "build-linux": "build --linux --x64 --ia32",
+  }
 }
